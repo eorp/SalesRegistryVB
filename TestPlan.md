@@ -98,7 +98,7 @@
 
 ##[Test Results](#)
 
-# Introduction <a name="1"></a>
+<a name="1"># Introduction</a>
 The following Test Plan document contains a test strategy, a test plan, test cases and a test report for a Java Web Server software.
 
 Scenario below provides a background to explain the purpose for this document creation.
@@ -347,12 +347,10 @@ Ensure the server does not start if a non-integer port number is provided
 
 - Click &quot;Run&quot;
 
-**Expected Output
-**
+**Expected Output**
 &quot;Enter a valid port 1-65535 and a optional URL&quot; shown in the console
 
-**Actual Output
-**
+**Actual Output**
 As expected on all three machines
 
 
@@ -766,7 +764,7 @@ A test coverage tool, EclEmma was used to ensure that the JUnit tests covered al
 
 The following matrix presents mapping of requirements to test cases to provide forward and backward traceability to indicate that all requirements have been covered during testing
 
-|   | **R1** | **R2**** UC1 **|** R2 ****UC2** | **R2**** UC3 **|** R3 **|** R4 **|** R5 **|** R6 **|** R7** |
+|   | **R1** | **R2** ** UC1 **|** R2 ** **UC2** | **R2** ** UC3 **|** R3 **|** R4 **|** R5 **|** R6 **|** R7** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | JUnit |   |   |   |   |   | X |   |   |   |
 | TC1\_R1 | X | X | X | X | X |   |   | X | X |
