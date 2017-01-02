@@ -214,18 +214,21 @@ The goal is to test performance of the application under different loads.
 *Technique*. Use Apache JMeter tool to simulate different loads on the web server.
 
 The completion criteria is when all planned tests are executed.
+
 <a name="3.2.4"></a>
 ### JUint Testing
 
 *Technique*. Execute each JUnit test to ensure that each test passes.
 
 The completion criteria is when all tests are run and every test passes.
+
 <a name="3.3"></a>
 ## Test Cases Naming Scheme
 
 The naming scheme for the test cases is as follows: TCX\_RY; where TC stands for a test case, X is a number of a test case for a specific requirement, R stands for a requirement under test, and Y is the requirement number. For example, a test case 1 for a requirement 4 will be presented as TC1\_R4.
 
 Test cases derived from use cases will be in a format of TCZ.X\_RY, where Z stands for a use case number. As an example, test case 3 of use case 2 for requirement 4 will be presented as TC2.3\_R4.
+
 <a name="3.4"></a>
 ## Roles and Responsibilities
 
@@ -237,6 +240,7 @@ The only member of the testing team, the designated tester has the following res
 - Execute test cases
 - Create and compile the test plan document
 - Convert the document to markdown format and ensure it renders properly
+
 <a name="3.5"></a>
 ## Risks
 
@@ -246,6 +250,7 @@ Since there is only one designated tester for this iteration the possible risks 
 - Equipment is unavailable. Probability rate low.
 - Installing necessary software takes unexpectedly long. Probability rate low to medium.
 - Filling in knowledge gaps takes unexpectedly long. Probability rate medium.
+
 <a name="3.5.1"></a>
 ### Mitigation strategy
 
