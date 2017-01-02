@@ -100,9 +100,9 @@
 
 <a name="1"></a>
 # Introduction 
-The following Test Plan document contains a test strategy, a test plan, test cases and a test report for a Java Web Server software.
+The following Test Plan document contains test strategy, test plan, test cases and test results for a Java Web Server application.
 
-Scenario below provides a background to explain the purpose for this document creation.
+Scenario below provides a background to explain the purpose behind this document creation.
 
 The small Software Development Company (SDC) has found a possible market niche for giving out a simple to deploy web-server. SDC aims to redistribute this server on a wide range of Internet Of Things (IOT) to present information from sensors etc. SDC wants an easy to deploy java-web-server that can be deployed on many different devices and therefore that can attract attention of a wide range of IOT developers. IOT-developers want minimal configuration as well as easy integration and adaptation of the web-server. End-customers want easy access and absolute security. The SDC management has found an open source abandonware software called &quot;My web server&quot;. It is your job as SDC employee(s) to evaluate the current state of &quot;My web server&quot;. SDC needs to know if the abandoned software fulfills the requirements as stated in the requirement document. Your budget is one man-week times the number of students. SDC management want a strategy, plan, test-cases as well as a test-report.
 <a name="1.1"></a>
@@ -127,7 +127,11 @@ The table below presents goals for each type of stakeholders as well as the requ
 | The company, SDC | Software shall be easy to deploy on multiple platforms |
 | IOT developers | Software shall require minimal configurationSoftware shall be easy to integrate and adapt |
 | End users | Software shall be easy to access Software shall provide maximum security |
-|   | The web server should be responsive under high load.The web server must follow minimum requirements for HTTP 1.1The web server must work on Linux, Mac, Windows XP, Vista, 7, 8, 10, Server 2008.The source code should be released under GPL-2.0.The access log should be viewable from a text editor. |
+|   | The web server should be responsive under high load. |
+|   | The web server must follow minimum requirements for HTTP 1.1|
+|   | The web server must work on Linux, Mac, Windows XP, Vista, 7, 8, 10, Server 2008.|
+|   | The source code should be released under GPL-2.0.|
+|   | The access log should be viewable from a text editor. |
 
 
 
