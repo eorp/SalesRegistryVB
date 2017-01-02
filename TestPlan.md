@@ -1,6 +1,6 @@
-#### **My Web Server**
+# **My Web Server**
 
-#### **Test Plan**
+## **Test Plan**
 
 #### **Version: 1.0**
 
@@ -777,8 +777,8 @@ The following matrix presents mapping of requirements to test cases to provide f
 | TC1.5\_R2 |   | X |   |   |   |   |   |   |   |
 | TC1.6\_R2 |   | X | X | X | X |   | X | X | X |
 | TC1.7\_R2 |   | X |   |   |   |   |   |   |   |
-| TC2.1\_R2 |   |   | X |   |   |   |   | X |   |
-| TC2.2\_R2 |   |   | X |   |   |   | X |   |   |
+| TC2.1\_R2 |   |   | X |   |   |   |   |  |   |
+| TC2.2\_R2 |   |   | X |   |   |   | X | X  |   |
 | TC3.1\_R2 |   |   |   | X | X | X | X | X |   |
 | TC3.2\_R2 |   |   |   | X |   | X |   |   |   |
 | TC3.3\_R2 |   |   |   | X |   | X |   |   |   |
