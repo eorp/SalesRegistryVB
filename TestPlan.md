@@ -103,13 +103,13 @@ The following Test Plan document contains a test strategy, a test plan, test cas
 Scenario below provides a background to explain the purpose for this document creation.
 
 The small Software Development Company (SDC) has found a possible market niche for giving out a simple to deploy web-server. SDC aims to redistribute this server on a wide range of Internet Of Things (IOT) to present information from sensors etc. SDC wants an easy to deploy java-web-server that can be deployed on many different devices and therefore that can attract attention of a wide range of IOT developers. IOT-developers want minimal configuration as well as easy integration and adaptation of the web-server. End-customers want easy access and absolute security. The SDC management has found an open source abandonware software called &quot;My web server&quot;. It is your job as SDC employee(s) to evaluate the current state of &quot;My web server&quot;. SDC needs to know if the abandoned software fulfills the requirements as stated in the requirement document. Your budget is one man-week times the number of students. SDC management want a strategy, plan, test-cases as well as a test-report.
-<a name="1.2"></a>
+<a name="1.1"></a>
 ## Software Overview
 
 My Web Server is an easy to deploy, well tested, open source, web server that supports multiple platforms.
 
 # Test Strategy
-
+<a name="2"></a>
 ## Stakeholders and Testing Goals
 
 Given the above scenario, the following stakeholders have been identified:
@@ -763,7 +763,9 @@ A test coverage tool, EclEmma was used to ensure that the JUnit tests covered al
 
 The following matrix presents mapping of requirements to test cases to provide forward and backward traceability to indicate that all requirements have been covered during testing
 
-|   | **R1** | **R2** **UC1**|**R2** **UC2** | **R2** ** UC3 **|** R3 **|** R4 **|** R5 **|** R6 **|** R7** |
+|   | **R1** | **R2** 
+**UC1**|**R2** 
+**UC2** | **R2** ** UC3 **|** R3 **|** R4 **|** R5 **|** R6 **|** R7** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | JUnit |   |   |   |   |   | X |   |   |   |
 | TC1\_R1 | X | X | X | X | X |   |   | X | X |
