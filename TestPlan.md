@@ -184,6 +184,7 @@ The following section identifies the requirements that will be tested. It also i
 - *R7. The web server should be responsive under high load*. The web server performance will be tested using Apache JMeter application.
 - *R8. The source code should be released under GPL-2.0*. Testing this requirement will involve examining the license document under which the application was released.
 <a name="3.1.2"></a>
+
 ### Requirements not to be tested
 
 The following requirements will not be tested:
